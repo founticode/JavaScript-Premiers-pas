@@ -7,7 +7,7 @@ bouton.addEventListener("click", function() {
 });
 
 champNom.addEventListener("input", function() {
-  console.log("Texte saisi : " + champNom.value.trim);
+  console.log("Texte saisi : " + champNom.value.trim());
 });
 
 formulaire.addEventListener("submit", function(e) {
