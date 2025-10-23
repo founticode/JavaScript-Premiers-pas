@@ -5,7 +5,7 @@ let counter = document.getElementById("counter");
 checkbox.forEach(checkbox => {
     checkbox.addEventListener('change', () => {
         
-        const checkedCount = document.querySelectorAll('.task:checked').length;
+        let checkedCount = document.querySelectorAll('.task:checked').length;
         counter.innerHTML = ` <p> Checked chapters : ${checkedCount}</p> `;
     });
 });
