@@ -47,6 +47,10 @@ addBtn.addEventListener('click', () => {
     savedtasks();
   });
 
+  if (Done) {
+    task.classList.add('done');
+  }
+
     task.appendChild(checkbox);
     task.appendChild(span);
     task.appendChild(delBtn);
